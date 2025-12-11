@@ -1,70 +1,63 @@
-body{
-    background-color: black;
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007ACC;
+    padding:10px 20px;
 }
-.title{
-    
-    color: blue;
-    
-    }
-    
-
-.table1, th,td {
-    background-color:wheat;
-    color:black;
-  border: 5px solid rgb(223, 11, 11);
-  border-collapse: collapse;
-  width:1000px;
-  height: 200px;
-  border-style: groove;
-  
+.logo h1 {
+    color: white; 
+    margin: 0;
 }
-.header,th{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 75px;
+.nav-links{
+    list-style: none;
+    display:flex;
+    gap:20px;
 }
-.one{
-    font-size: 50px;
+.nav-links li a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
 }
-.two{
-    font-size: 50px;
+.nav-links li a:hover{
+    color:#0d0d0e;
 }
-.image{
-    height: 200px;
-    width: 600px;
+/*Home section*/
+.home-section{
+    padding:40px 10%;
+    display:flex;
+    justify-content: center;
+    background-color: #F8F9FA;
 }
-.video{
-    height: 350px;
-    width: 600px;
+.home-content { 
+display: flex; 
+gap: 40px; 
+align-items: center; 
 }
-.desc {
-    position:absolute;
-    top: 100;
-    left: 1100;
-    right:50;
-    margin:20px;
-    
-    color: aliceblue;
+.home-image img { 
+width: 350px; 
+height: auto; 
+border-radius: 10px; 
 }
-a {
-    text-decoration: none;
+.home-intro h1 { 
+font-size: 32px; 
+margin-bottom: 10px; 
+color: #343A40
 }
-
-
-.btn {
-    display: inline-block;
-    padding: 8px 14px;
-    background-color: #0a0a0a;
-    color: white;
-    border-radius: 6px;
-    
-   
-}
-
-
-.btn:hover {
-    background-color: #f60e0e;
-   
-}
-
-
+.home-intro p { 
+font-size: 18px; 
+line-height: 1.5; 
+margin-bottom: 20px; 
+} 
+.home-btn { 
+padding: 10px 20px; 
+background-color: #007ACC; 
+color: white; 
+border: none; 
+border-radius: 5px; 
+cursor: pointer; 
+} 
+.home-btn:hover { 
+background-color: #005B99;
+ }
 
