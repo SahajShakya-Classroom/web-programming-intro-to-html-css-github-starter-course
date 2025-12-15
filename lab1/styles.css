@@ -1,0 +1,32 @@
+body {
+  background-color: lightgray;
+  font-size: 16px;
+  margin: 20px;
+  padding: 20px;
+}
+
+h1{
+  color: blue;
+  background-color: tomato;
+  border-radius: solid black 2px;
+  width: 200px;
+  text-align: center;
+  font-style: italic;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+p {
+  color: green;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+italic {
+  font-style: italic;
+  color: purple;
+}
