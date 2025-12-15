@@ -1,5 +1,7 @@
-div{
-    background-color: grey;
-    display:flex;
+#brown{
+    color:brown;
+}
 
+.blue{
+    color:blue;
 }
