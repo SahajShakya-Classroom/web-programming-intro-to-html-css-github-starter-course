@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+background: #fefefe;
+color:rgba(11, 11, 11, 1);
+
+}
+.logo{
+    color:#ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+.navbar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #87ab96;
+    padding: 10px 20px;
+}
+.nav-links li {
+    display:inline-block;
+    margin:20px;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    color:black;
+
+}
+.nav-links li a {
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.home_content{
+    display: flex;
+    align-items: center;
+    padding:50px;
+   
+}
+.content p{
+    display:block;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    
+
+}
+.content{
+    padding:40px;
+}
+.home-btn{
+    border-width: none;
+    border-radius: 7px;
+    text-align: center;
+    cursor:pointer;
+    padding:10px 10px;
+    font-size:15px;
+    background-color: rgb(246, 246, 246);
+    color:black;
+}
+.home-btn:hover{
+    background-color: rgb(45, 213, 213);
+    color:white;
+}
+
+.profile img{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+#about{
+    margin: 19.92px;
+}
+#projects{
+    margin: 19.92px;
+}
+#contact{
+    margin: 19.92px;
+}
