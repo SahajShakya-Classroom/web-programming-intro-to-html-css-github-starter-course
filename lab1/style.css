@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}  
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: white;
+    color: black;
+    padding: 20px 40px;
+    height:5vh;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.logo-intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    height: 50vh;
+    padding: 20px 40px;
+    gap: 40px;
+}
+.intro{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+.image{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0 0 auto;
+}
+.image img{
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+}
+.text{
+    text-align: right;
+    max-width: 600px;
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    align-items: center;
+}
+
+ul li a:hover{
+    color: red;
+
+}
+
+ul{
+    display:flex;
+    gap:10px;
+
+}
+footer{
+    height: 10vh;
+    background-color:black;
+    color:white;
+    display:flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.main{
+    height:250vh;
+}
+
+.ad{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+}
+
+.table{
+    padding: 40px;
+    background-color: #f5f5f5;
+}
+
+.table h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 2em;
+}
+
+.bmwtable{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bmwtable thead{
+    background-color: #000;
+    color: white;
+}
+
+.bmwtable th{
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.bmwtable td{
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.bmwtable tbody tr:hover{
+    background-color: #f9f9f9;
+}
+
+.bmwtable tbody tr:last-child td{
+    border-bottom: none;
+}
+
+.btn{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.video video{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.catimage {
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+} 
+.maincontact{
+    height: 250vh;
+}
+.introabout{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.intromain{
+    height: 100vh;
+    background-color: #ddd;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutbox{
+    background: white;
+    padding: 40px 48px;
+    border-radius: 12px;
+    text-align: center;
+    width: 90%;
+}
+.aboutbox ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #222;
+}
+.about-card li{
+    list-style: none;
+}
