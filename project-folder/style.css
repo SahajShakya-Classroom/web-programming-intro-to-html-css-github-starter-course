@@ -1,0 +1,29 @@
+
+
+#main-title{
+    text-align: center;
+    margin-bottom: 15px;
+    background: linear-gradient(blue, green);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+
+#student-table th, #student-table td
+{
+    border:1px solid black;
+   padding:5px;
+}
+
+#student-table
+{
+    border-collapse:collapse;
+    
+}
+
+img{
+    width:auto;
+    height:500px;
+    
+}
