@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+}
+.title{
+    
+    color: blue;
+    
+    }
+    
+
+.table1, th,td {
+    background-color:wheat;
+    color:black;
+  border: 5px solid rgb(223, 11, 11);
+  border-collapse: collapse;
+  width:1000px;
+  height: 200px;
+  border-style: groove;
+  
+}
+.header,th{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 75px;
+}
+.one{
+    font-size: 50px;
+}
+.two{
+    font-size: 50px;
+}
+.image{
+    height: 200px;
+    width: 600px;
+}
+.video{
+    height: 350px;
+    width: 600px;
+}
+.desc {
+    position:absolute;
+    top: 100;
+    left: 1100;
+    right:50;
+    margin:20px;
+    
+    color: aliceblue;
+}
+a {
+    text-decoration: none;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 8px 14px;
+    background-color: #0a0a0a;
+    color: white;
+    border-radius: 6px;
+    
+   
+}
+
+
+.btn:hover {
+    background-color: #f60e0e;
+   
+}
+
+
+
