@@ -1,0 +1,13 @@
+.upper_lab,.lower_lab
+{
+    padding:8px;
+    text-align: center;
+    background-color: rgb(190, 238, 238);
+}
+.day{
+    text-align: center;
+}
+#Tformat{
+    border-collapse: collapse;
+
+}
