@@ -1,115 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class Routine</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: white;
-            padding: 20px;
-            margin: 0;
-        }
-
-        h1 {
-            text-align: center;
-            color: #333;
-            margin-bottom: 30px;
-        }
-
-        table {
-            width: 100%;
-            max-width: 1200px;
-            margin: 0 auto;
-            border-collapse: collapse;
-        }
-
-        th, td {
-            border: 1px solid #000;
-            padding: 12px;
-            text-align: center;
-        }
-
-        th {
-            background: #f0f0f0;
-            font-weight: bold;
-        }
-
-        .day {
-            background: #f8f8f8;
-            font-weight: bold;
-        }
-
-        .course {
-            font-size: 14px;
-            line-height: 1.5;
-        }
-    </style>
+    
+    <title>Siddhant Pandey - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Class Routine</h1>
-    
-    <table>
-        <tr>
-            <th>Day</th>
-            <th>07:00-07:50</th>
-            <th>07:50-08:40</th>
-            <th>08:40-09:30</th>
-            <th>09:30-10:20</th>
-            <th>10:20-11:10</th>
-            <th>11:10-12:00</th>
-            <th>12:00-12:50</th>
-            <th>12:50-13:40</th>
-            <th>13:40-14:30</th>
-            <th>14:30-15:20</th>
-        </tr>
+     
+    <div class="navbar">
+        <ul class="nav-link">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="./project.html">Projects</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="parent" id="home">
+            Welcome 
+        </div>
         
-        <tr>
-            <td class="day">SUNDAY</td>
-            <td colspan="3">Database Management System<br>CT652 - NIA</td>
-            <td>N/A</td>
-            <td colspan="2">Computer Networks and Security<br>CT702 - AKC</td>
-            <td>N/A</td>
-            <td colspan="2">Computer Organization and Architecture<br>CT603 - AS</td>
-            <td></td>
-        </tr>
+        <div class="portfolio">
+            <img src="./profile.png" alt="Profile Picture"/>
+        </div>
         
-        <tr>
-            <td class="day">MONDAY</td>
-            <td colspan="2">Web Application Programming<br>CT 302 - UP</td>
-            <td colspan="2">N/A</td>
-            <td colspan="2">Computer Networks and Security<br>CT702 - AKC + BID</td>
-            <td colspan="3">Advance Python Programming for Data Science<br>ENCT 326 - AKK</td>
+        <div class="info" id="about">
+            <h1 class="name">Siddhant Pandey</h1>
             
-            <td></td>
-        </tr>
-        
-        <tr>
-            <td class="day">TUESDAY</td>
-            <td colspan="2">Database Management System<br>CT652 - NIA</td>
-            <td colspan="2">Web Application Programming<br>CT 302 - UP</td>
-            <td>N/A</td>
-            <td colspan="2">Probability and Statistics<br>SH602 - DDG</td>
-            <td colspan="2">Web Application Programming (LAB)<br>CT 302 - SDS + PYT</td>
-        </tr>
-        
-        <tr>
-            <td class="day">WEDNESDAY</td>
-            <td colspan="2">Computer Organization and Architecture<br>CT603 - AS</td>
-            <td colspan="2">Computer Networks and Security<br>CT702 - AKC</td>
-            <td colspan="2">Advance Python Programming for Data Science<br>ENCT 326 - AKK</td>
-            <td colspan="4">Computer Organization and Architecture (LAB)<br>CT603 - AS + PYT <strong>OR</strong><br><br>Minor Project (LAB)<br>CT654 - AS + RK</td>
-        </tr>
-        
-        <tr>
-            <td class="day">THURSDAY</td>
-            <td colspan="2">Computer Networks and Security<br>CT702 - AKC</td>
-            <td colspan="2">Probability and Statistics<br>SH602 - DDG</td>
-            <td>N/A</td>
-            <td>Computer Organization and Architecture<br>CT603 - AS</td>
-            <td colspan="4">DBMS lab<br>CT603 - AS</td>
-        </tr>
-    </table>
+            <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, perspiciatis voluptatibus minima quas consectetur, a quo labore veniam ipsam officia odit, assumenda accusantium quis inventore. In rerum modi, blanditiis expedita suscipit ullam doloremque at optio assumenda molestias quisquam quo non possimus sequi aperiam voluptate, nisi, debitis voluptatem consectetur doloribus adipisci.</p>
+            
+            <div class="contact" id="contact">
+                <h2>Contact Me</h2>
+                <p><strong>Email</strong>: <input type="email"></p><br>
+                <p><strong>Phone :</strong><input type="phone"</p><br>
+
+                <button class="btn">Submit</button>
+            </div>
+
+          
+        </div>
+    </div>
+
 </body>
 </html>

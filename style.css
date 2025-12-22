@@ -1,0 +1,128 @@
+body {
+
+    font-family: 'Space Grotesk', sans-serif;
+    background: #ecf5fd;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* forFixed Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #b0d4e3;
+    padding: 1rem;
+    border-bottom: 2px solid #8ac4d9;
+    z-index: 1000;
+}
+
+.nav-link {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav-link a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link a:hover {
+    color: #2c5f7a;
+}
+
+
+.container {
+    margin-top: 70px;
+}
+
+.parent {
+    background: #b0d4e3;
+    padding: 4rem 2rem;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.portfolio {
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.portfolio img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #8ac4d9;
+  
+}
+
+
+.info {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.name {
+    text-align: center;
+    color: #2c5f7a;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.bio {
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+ 
+}
+
+
+.contact {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 2px solid #b0d4e3;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #2c5f7a;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.contact p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+.btn {
+    background: #8ac4d9;
+    color: #fff;
+    border: 2px solid #2c5f7a;
+    padding: 0.9rem 2.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1rem;
+    box-shadow: 4px 4px 0px #2c5f7a;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    background: #6ab0c9;
+    transform: scale(1.1)
+}
+
